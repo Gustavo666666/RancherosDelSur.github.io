@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+</head>
+<body>
+    <h1>Bienvenido al Restaurante</h1>
+    
+    <div>
+        <button><a href="{% url 'home' %}">Inicio</a></button>
+        <button><a href="{% url 'menu' %}">Menú</a></button>
+        <button><a href="{% url 'contacto' %}">Contacto</a></button>
+    </div>
+
+    <div>
+        <!-- Aquí puedes agregar las imágenes y contenido que desees -->
+        <img src="{% static 'restaurante_app/imagen1.jpg' %}" alt="Imagen 1">
+        <img src="{% static 'restaurante_app/imagen2.jpg' %}" alt="Imagen 2">
+        <img src="{% static 'restaurante_app/imagen3.jpg' %}" alt="Imagen 3">
+    </div>
+</body>
+</html>
