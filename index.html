@@ -2,14 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página con Logo desde Internet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Restaurante Bootstrap</title>
+
+    <!-- Agregar la hoja de estilos de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Mi Página con Logo</h1>
 
-    <img src="https://scontent.ftlc1-1.fna.fbcdn.net/v/t39.30808-6/340934616_532041668875249_7936975128301807683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6g--7_0TQqkAX9XQSdn&_nc_ht=scontent.ftlc1-1.fna&oh=00_AfC5QmNiTbGHcRjnQGE46W3Za_Bzinriq_wBNu8zI9VqsQ&oe=655D8400" alt="RRRR">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://scontent.ftlc1-1.fna.fbcdn.net/v/t39.30808-6/340934616_532041668875249_7936975128301807683_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6g--7_0TQqkAX9XQSdn&_nc_ht=scontent.ftlc1-1.fna&oh=00_AfC5QmNiTbGHcRjnQGE46W3Za_Bzinriq_wBNu8zI9VqsQ&oe=655D8400" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+            Restaurante Rancheros Del Sur
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <p>Otra parte de tu página...</p>
-</body>
-</html>
+    <!-- Bienvenida -->
+    <section class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">¡Bienvenido al Restaurante!</h1>
+            <p class="lead">Ofrecemos del
